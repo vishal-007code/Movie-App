@@ -56,7 +56,7 @@ const SearchInput = styled.input`
 const MovieListContent = styled.div`
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   padding: 30px;
   gap: 25px;
   justify-content: space-evenly; ;
@@ -97,7 +97,9 @@ function App() {
           />
         </SearchBox>
       </Header>
-      {selectedMovie && <MovieInfoComponents selectedMovie={selectedMovie} />}
+      {selectedMovie && <MovieInfoComponents selectedMovie={selectedMovie} 
+        onMovieSelect={onMovieSelect}
+      />}
       <MovieListContent>
         {movieList?.length
           ? movieList.map((movie, index) => (
