@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.fhhMRL{
+  margin-left: 0px !important;
+  gap: 16px;
+  width: auto !important;
+}
+
+.ctoQcV{
+  margin-left: 0px !important;
+}
+
+.bqMuqv{
+  margin: 0px !important;
+}
+
+.gYuHGK{
+  gap: 16px;
+}
+
+
+.appname{
+  margin: 0px;
+}
+
+@media (max-width:628px) {
+  .appname{
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .bEPOWi{
+    flex-direction: column !important;
+  }
+  
+}
