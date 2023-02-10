@@ -30,15 +30,13 @@ const Appname = styled.div`
 const MovieImage = styled.img`
   widht: 48px;
   height: 48px;
-  margin: 15px;
 `;
 const SearchBox = styled.div`
   display: flex;
   flex-direction: row;
   padding: 10px 10px;
   border-radius: 6px;
-  margin-left: 20px;
-  width: 50%;
+  gap: 16px;
   background-color: white;
 `;
 const SearchIcon = styled.img`
@@ -51,7 +49,6 @@ const SearchInput = styled.input`
   font-weight: bold;
   border: none;
   outline: none;
-  margin-left: 15px;
 `;
 const MovieListContent = styled.div`
   display: flex;
