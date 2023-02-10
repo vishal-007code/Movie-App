@@ -26,6 +26,7 @@ const Appname = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap:16px;
 `;
 const MovieImage = styled.img`
   widht: 48px;

@@ -9,6 +9,9 @@ const Container = styled.div`
   padding: 20px 30px;
   justify-content: center;
   border-bottom: 1px solid lightgray;
+  @media (max-width:768px){
+    flex-direction:column;
+  }
 `;
 const CoverImage = styled.img`
   object-fit: cover;
@@ -17,7 +20,8 @@ const CoverImage = styled.img`
 const InfoColumn = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  padding: 20px;
+  box-sizing:border-box;
 `;
 const MovieName = styled.span`
   font-size: 22px;
